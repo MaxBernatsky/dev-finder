@@ -37,7 +37,7 @@ export const Search = ({ hasError, onSubmit }: SearchProps) => {
           className={styles.searchInput}
           id="search"
           name="username"
-          placeholder="Search Gihub username..."
+          placeholder="Search Github username..."
         />
         {hasError && <div className={styles.error}>No result</div>}
         <Button onClick={() => console.log("qwe")}>Search</Button>
